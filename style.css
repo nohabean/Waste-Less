@@ -189,15 +189,31 @@ button:hover {
   justify-content: space-between;
   text-align: center;
 }
+.header-item h3 {
+  margin-left: 15px;
+}
 .header-button {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 15px;
-  align-items: center;
+  width: 100%;
 }
 .header-button button {
   width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+  margin: 0 1rem;
+  border-radius: 25px;
+  border: 3px black solid;
+}
+.header-button button:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .about-container {
