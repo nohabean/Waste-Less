@@ -121,5 +121,5 @@ const reveal = () => {
 
 // Register a 'click' event listener for the buttons
 themeButton.addEventListener("click", toggleDarkMode);
-signNowButton.addEventListener("click", validateForm)
-window.addEventListener('scroll', reveal)
+signNowButton.addEventListener("click", validateForm);
+window.addEventListener('scroll', reveal);
