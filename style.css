@@ -555,6 +555,13 @@ footer {
   background-color: black;
   color: white;
 }
+.dark-mode .news-container {
+  background-color: black;
+  color: white;
+}
+.dark-mode .news-container a {
+  color: white;
+}
 
 /* Parallax scroll animations */
 .revealable {
