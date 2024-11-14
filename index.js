@@ -12,10 +12,10 @@ const toggleDarkMode = () => {
 
     // Change the image based on the current mode
       if (document.body.classList.contains("dark-mode")) {
-        themeIcon.src = "/dark-mode-button.png"; 
+        themeIcon.src = "/img/dark-mode-button.png"; 
         themeIcon.alt = "dark mode button";
       } else {
-        themeIcon.src = "/light-mode-button.png"; 
+        themeIcon.src = "/img/light-mode-button.png"; 
         themeIcon.alt = "light mode button";
       }
 }
